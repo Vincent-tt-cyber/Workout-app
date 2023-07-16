@@ -10,6 +10,7 @@
     cursor: pointer;
     font-size: 27px;
     > svg {
+      animation: opacity 0.4s;
       fill: #fff;
     }
   }
@@ -19,7 +20,7 @@
     right: 0;
     background: #fff;
     padding: 10px 12px;
-    font-size: 14px;
+    font-size: 18px;
     box-shadow: $bx-16;
     border-radius: 10px 0px 10px 10px;
     min-width: 116px;
@@ -30,6 +31,9 @@
     }
     > ul {
       list-style: none;
+      > button {
+        font-size: 16px;
+      }
     }
     a {
       color: #000;

@@ -3,8 +3,9 @@ import { Layout } from "../../Layout/Layout";
 function Home() {
   /* 
 
-    TODO:
-    Продолжить разработку по 7 уроку "Frontend для начинающих"
+    todo
+
+    - Продолжить разработку по 7 12:17 уроку "Frontend для начинающих"
     
   */
 
