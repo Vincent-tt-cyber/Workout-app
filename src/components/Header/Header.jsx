@@ -1,7 +1,7 @@
 import { useAuth } from "../../hooks/useAuth";
 import { Humburger } from "../Humburger/Humburger";
 import styles from "./Header.module.scss";
-import { FiArrowLeft } from "react-icons/fi";
+import { HiArrowLeft } from "react-icons/hi";
 
 export const Header = () => {
   /*   TODO: react-router-dom useHistory */
@@ -11,7 +11,7 @@ export const Header = () => {
     <>
       <header className={styles.header}>
         <button onClick={() => {}}>
-          <FiArrowLeft />
+          <HiArrowLeft />
         </button>
         {/* User profile */}
         <Humburger />

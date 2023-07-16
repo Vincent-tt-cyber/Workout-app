@@ -3,11 +3,15 @@
 
 .wrapper {
   position: relative;
-  button {
+  > button {
     background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;
+    font-size: 27px;
+    > svg {
+      fill: #fff;
+    }
   }
   .menu {
     position: absolute;
