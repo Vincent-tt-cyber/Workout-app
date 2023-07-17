@@ -4,16 +4,14 @@ import { Layout } from "../../Layout/Layout";
 import { Button } from "../../UI/Button/Button";
 import { useAuth } from "../../../hooks/useAuth";
 function Home() {
-  /* 
-    todo
-
-    - Продолжить разработку по 8 уроку "Frontend для начинающих"
-  */
   const { isAuth } = useAuth();
   const navigate = useNavigate();
 
+  // TODO:
+  // Продолжить разработку по 8 уроку 19:30
+
   return (
-    <Layout bgImage="/images/home-bg.jpg">
+    <Layout bgImage="/images/home.jpg">
       <Button clickHandler={() => navigate(isAuth ? "/new-workout" : "/auth")}>
         {isAuth ? "New" : "Sign in"}
       </Button>
