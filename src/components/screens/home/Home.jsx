@@ -8,7 +8,12 @@ function Home() {
   const navigate = useNavigate();
 
   // TODO:
-  // Продолжить разработку по 8 уроку 19:30
+  // Продолжить разработку по 9 уроку
+  // Auth-Context
+  // Auth-reducer
+  // Axios, API
+  // React Query
+  // * ДЗ: Написать самостоятельно Context для useAuth
 
   return (
     <Layout bgImage="/images/home.jpg">
